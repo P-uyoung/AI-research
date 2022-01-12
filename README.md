@@ -12,7 +12,7 @@ This study develops into a three-step model.
     * Mini-batch gradient descent 
   * Result
     * (Accuracy) R-square : 0.674
-    * This model is over-fitting. 
+    * ---This model is over-fitting.---
 
 
 * The second model is about "Prediction of **_Domestic_** Flyashes of Total Amorphous Content(wt. %)". 
@@ -24,7 +24,7 @@ This study develops into a three-step model.
     * loss=mse, optimizer=RMSprop
   * Result
     * (Accuracy) R-square : 0.771
-    * Accuracy is good, but data has some problem.. I will change dataset at Model3.
+    * ---Accuracy is good, but data has some problem.. I will change dataset at Model3.---
 
 
 * The third model is about "Prediction of Domestic Flyashes of RAl2O3, RSiO2 Content(wt. %)."
