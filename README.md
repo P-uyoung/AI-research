@@ -16,10 +16,15 @@ This study develops into a three-step model.
 
 
 * The second model is about "Prediction of **_Domestic_** Flyashes of Total Amorphous Content(wt. %)". 
-
-
-
-
+  * Data
+    * input(6) : XRF results (Al2O3, SiO2, CaO, Fe2O3, MgO, Na2O+0.658K2O)
+    * output(1) : Total Amorphous Content
+  * Model
+    * keras.models.Sequential(), selu/linear, layers.dense=6, 12 ,6 ,1
+    * loss=mse, optimizer=RMSprop
+  * Result
+    * (Accuracy) R-square : 0.771
+    * Accuracy is good, but data has some problem.. I will change dataset at Model3.
 
 
 * The third model is about "Prediction of Domestic Flyashes of RAl2O3, RSiO2 Content(wt. %)."
