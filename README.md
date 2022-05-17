@@ -28,15 +28,15 @@ This study develops into a three-step model.
     * --- Accuracy is bad, some of fly ashes are not predictable. So, next model is trained without these fly ash samples. ---
     
 
-* The third model is about "Prediction of Amorphous Aluminosilicate of selected **_Domestic_**  Fly ashes(wt.%)."
+* The third model is about "Prediction of Amorphous Aluminosilicate of **_Selected Domestic_**  Fly ashes(wt.%)."
   * Data
     * input(6) : XRF results (Al2O3, SiO2, CaO, Fe2O3, MgO, Na2O+0.658K2O)
     * output(1) : QXRD results (Sum of amorphous aluminosilicate)
   * Model
     * Sampling : Stratified Sampling
-    * (alg) Ensemble Technique : GradientBoosing + RandomForest
+    * (alg) GradientBoosing : warm_start=True, learning_rate=1, n_estimator=8
   * Result
-    * (Accuracy) R-square : 0.492
+    * (Accuracy) R-square : 0.802
     * --- Accuracy is bad, some of fly ashes are not predictable. So, next model is trained without these fly ash samples. ---
 
 
