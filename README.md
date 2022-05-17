@@ -1,33 +1,46 @@
-I study machine learning for predicting structural materials, especially concrete and flyashes. This repository is about this code.
+I study machine learning for predicting structural materials, especially concrete and flyashes(; the component of concrete). This repository is about this code.
 
 The first one is Fly ashes.
 =================
 This study develops into a three-step model.
-* The first model is about "Prediction of Flyashes of Total Amorphous Content(wt. %)". 
+* The first model is about "Prediction of Amorphous Aluminosilicate of Grobal Fly ashes(wt.%)". 
   * Data
-    * input(7) : XRF results (Al2O3, SiO2, CaO, Fe2O3, MgO, Na2O+0.658K2O, SiO2/Al2O3
-    * output(1) : Total Amorphous Content 
+    * input(6) : XRF results (Al2O3, SiO2, CaO, Fe2O3, MgO, Na2O+0.658K2O)
+    * output(1) : QXRD results (Sum of amorphous aluminosilicate)
   * Model
-    * MLPReressor : solver-lbfgs, activation-relu, hidden_layer_sizes=(10,3)
+    * Sampling : Stratified Sampling
+    * (alg) MLPRegressor : solver-lbfgs, activation-relu, hidden_layer_sizes=(10,3)
     * Mini-batch gradient descent 
   * Result
-    * (Accuracy) R-square : 0.674
+    * (Accuracy) R-square : 0.774
     * ---This model is over-fitting.---
 
 
-* The second model is about "Prediction of **_Domestic_** Flyashes of Total Amorphous Content(wt. %)". 
+* The second model is about "Prediction of Amorphous Aluminosilicate of **_Domestic_** Fly ashes(wt.%)". 
   * Data
     * input(6) : XRF results (Al2O3, SiO2, CaO, Fe2O3, MgO, Na2O+0.658K2O)
-    * output(1) : Total Amorphous Content
+    * output(1) : QXRD results (Sum of amorphous aluminosilicate)
   * Model
-    * keras.models.Sequential(), selu/linear, layers.dense=6, 12 ,6 ,1
-    * loss=mse, optimizer=RMSprop
+    * Sampling : Stratified Sampling
+    * (alg) Ensemble Technique : GradientBoosing + RandomForest
   * Result
-    * (Accuracy) R-square : 0.771
-    * ---Accuracy is good, but data has some problem.. I will change dataset at Model3.---
+    * (Accuracy) R-square : 0.492
+    * --- Accuracy is bad, some of fly ashes are not predictable. So, next model is trained without these fly ash samples. ---
+    
+
+* The third model is about "Prediction of Amorphous Aluminosilicate of selected **_Domestic_**  Fly ashes(wt.%)."
+  * Data
+    * input(6) : XRF results (Al2O3, SiO2, CaO, Fe2O3, MgO, Na2O+0.658K2O)
+    * output(1) : QXRD results (Sum of amorphous aluminosilicate)
+  * Model
+    * Sampling : Stratified Sampling
+    * (alg) Ensemble Technique : GradientBoosing + RandomForest
+  * Result
+    * (Accuracy) R-square : 0.492
+    * --- Accuracy is bad, some of fly ashes are not predictable. So, next model is trained without these fly ash samples. ---
 
 
-* The third model is about "Prediction of Domestic Flyashes of RAl2O3, RSiO2 Content(wt. %)."
+
 
 The second one is Concrete.
 ===================
