@@ -8,7 +8,7 @@
 
 > **데이터 : [UC Irvine Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/concrete+compressive+strength)**
 
-> **참고논문 : [IC. Yeh. 1998](https://www.sciencedirect.com/science/article/pii/S0008884698001653),   [P.G. Asteris. 2021](https://www.sciencedirect.com/science/article/pii/S0008884621000983)**
+> **참고논문 : (1) [IC. Yeh. 1998](https://www.sciencedirect.com/science/article/pii/S0008884698001653),  (2) [P.G. Asteris. 2021](https://www.sciencedirect.com/science/article/pii/S0008884621000983)**
 
 > **참고코드 : [github.com_Pranov1984](https://github.com/Pranov1984/Prediction-of-cement-compressive-strength-using-stacked-ensemble-modelling/blob/master/Concrete%20Compressive%20Strength%20Prediction-V3.ipynb)**
 
