@@ -30,13 +30,13 @@
 
 ## **요약**
 - (1)Lasso, (2)SVM, (3)XGBoost, (4)GBR, (5)RF, (6)Stacking 모델의 예측 성능이 결정계수 0.78~0.92임.   
-![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png) 
+![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
 
 - (1)~(6)모델을 기반모델을 사용하여, Stacking 모델을 만들었으며, 모델의 `결정계수는 0.92`로 가장 높은 정확도를 보임.   
-![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/metaModel_performance.png)  
+      <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/metaModel_performance.png" width="250" height="250"/>  
 
 - `(타겟특성)압축강도` 예측에 영향이 높은 입력변수`(Feature Importance)는 '재령일 > 시멘트양 > 물의양 > 슬래그양 > SP양 > 잔골재' 순`임.   
-![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png)   
+      <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
 
 <br/>
 <!-- 
