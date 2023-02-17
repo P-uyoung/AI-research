@@ -36,7 +36,7 @@
 ![](https://github.com/P-uyoung/AI-research/tree/master/Concrete/Fig/graph_base model performance.png)   
 
 - `(타겟특성)압축강도` 예측에 영향이 높은 입력변수`(Feature Importance)는 '재령일 > 시멘트양 > 물의양 > 슬래그양 > SP양 > 잔골재' 순`임.   
-![](https://github.com/P-uyoung/AI-research/tree/master/Concrete/Fig/Feature Importance.png)   
+![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature%20Importance.png)   
 
 <br/>
 <!-- 
