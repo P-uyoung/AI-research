@@ -27,6 +27,7 @@
 </b>
 <br/>
 
+
 ## **요약**
 - (1)Lasso, (2)SVM, (3)XGBoost, (4)GBR, (5)RF, (6)Stacking 모델의 예측 성능이 결정계수 0.78~0.92임
 
@@ -35,7 +36,7 @@
 - `(타겟특성)압축강도` 예측에 영향이 높은 입력변수`(Feature Importance)는 '재령일 > 시멘트양 > 물의양 > 슬래그양 > SP양 > 잔골재' 순`임.
 
 <br/>
-
+<!-- 
 ## **기술 및 도구**
   <span><img src="https://img.shields.io/badge/Python-05122A?style=flat-square&logo=python"/></span>
   <span><img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"></span>
@@ -129,5 +130,5 @@ public Page<PostResponseDto> listTopTen() {
 </div>
 </details>
 -->
-
+ -->
 
