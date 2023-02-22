@@ -52,11 +52,11 @@
 ### 1. Literature Survey   
   **"Objective : Proposed Mixing Ratio with Maximum Stiffness(Modulus of Elasticity)"**   
   
-> (1) Relationship with `Compressive Strength` and `Dynamic Elastic Modulus`   
+(1) Relationship with `Compressive Strength` and `Dynamic Elastic Modulus`   
 
-> (2) Relationship with `Dynamic Elastic Modulus` and `Yong's Modulus`   
+(2) Relationship with `Dynamic Elastic Modulus` and `Yong's Modulus`   
 
-> (3) Changes in `Compressive Strength` According to the Mixing Ratio of `Ferro Nickel Slag(FNS)` and `Dolomite Aggregates`    
+(3) Changes in `Compressive Strength` According to the Mixing Ratio of `Ferro Nickel Slag(FNS)` and `Dolomite Aggregates`    
 <br/>
   
 ### 2. Modeling  
