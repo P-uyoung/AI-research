@@ -22,9 +22,9 @@
 - [Abstract](#Abstract)
 - [Tech and Tools](#Tech-and-Tools)
 - [Code Implementation](#Code-Implementation)
-  - [a. Data Analysis](#1-Data-Analysis)
-  - [b. Model Selection](#2-Model-Selection)
-  - [c. Model Evaluation](#3-Model-Evaluation)
+  - [a. Data Analysis](#a.-Data-Analysis)
+  - [b. Model Selection](#b.-Model-Selection)
+  - [c. Model Evaluation](#c.-Model-Evaluation)
   
 </b>
 <br/>
@@ -53,19 +53,27 @@
 <summary><b>Show Detailed Implementation</b></summary>
 <div markdown="1">
 
-### A. Data Analysis  
+### a. Data Analysis  
   **"Check (1) Distplot, (2) Outlier, (3) Clustering"**   
   
-### B. Data Proprocessing 
-**I used the following 5 models, and XGBoost is the final model. The model's `R^2 is 0.74`.**
-  
+### b. Model Selection
+**I used the following 5 models. So, combining these models, I useed the stakcing model as the final model. **
+- Lasso(poly_degree=2)
 - SVM
 - GBM
 - XGBoost
 - RF
-- Stacking
   
-<br/>
+**The final model(stacking)'s `R^2 is 0.92`.** 
+
+### c. Model Evaluation
+- R^2 (main)
+- R^2_adj
+- MAPE
+  
+</div>
+</details>
+
 
 
 
