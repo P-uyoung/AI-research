@@ -46,9 +46,33 @@
 
 ## **Progress Stage**
 <details>
-<summary><b>구현 설명 펼치기</b></summary>
+<summary><b>Show Detailed Progress</b></summary>
 <div markdown="1">
 
+### 1. Literature Survey   
+  **"Objective : Proposed Mixing Ratio with Maximum Stiffness(Modulus of Elasticity)"**   
+  
+> (1) Relationship with `Compressive Strength` and `Dynamic Elastic Modulus`   
+
+> (2) Relationship with `Dynamic Elastic Modulus` and `Yong's Modulus`   
+
+> (3) Changes in `Compressive Strength` According to the Mixing Ratio of `Ferro Nickel Slag(FNS)` and `Dolomite Aggregates`    
+<br/>
+  
+### 2. Modeling  
+**I used the following 5 models, and XGBoost is the final model. The model's R^2 is 0.74.**
+- SVM
+- GBM
+- XGBoost
+- RF
+- Stacking
+
+**Due to the small amount of data, it is difficult to prevent overfitting by placing a valid data set separately. In addition, due to the limitation of data amount, the optimal parameter during gridsearch is not the optimal parameter of the entire model, so it is difficult to adjust the parameter.**
+<br/>
+  
+###3. Experiment Design
+  
+  
 </div>
 </details>
 
