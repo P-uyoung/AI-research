@@ -1,18 +1,18 @@
-<h2 align="center">Prediction Concrete Compressive Strength</h2>
+<h2 align="center">Prediction of Concrete Compressive Strength</h2>
 
-**- ML모델 `(Lasso, SVM, XGBoost, GBR, RF, Stacking_ensemble)`을 사용하여 콘크리트 압축강도 예측 성능 향상**
+**- Improved the prediction performance of compressive strength of concrete using `ML model(Lasso, SVM, XGBoost, GBR, RF, Stacking)`**
 
-**- `3% 향상 (결정계수 0.89 -> 0.92)`**   
+**- `3% (0.89 -> 0.92 R^2)` performance improvement**   
 
-**- (토이 프로젝트) 기존 연구 및 코드를 공부하여, 예측 성능 향상시킴**
+**- (Toy Project) To improve model performance, I studied existing research and code**
 
-**- 다음 논문 및 코드를 기반으로 공부하여, 재모델링 해봄.**
+**- `Studied` based on the following papers and code, and `remodeled` them.**
 
-> **데이터 : [UC Irvine Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/concrete+compressive+strength)**
+> **Data : [UC Irvine Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/concrete+compressive+strength)**
 
-> **참고논문 : (1) [IC. Yeh. 1998](https://www.sciencedirect.com/science/article/pii/S0008884698001653),  (2) [P.G. Asteris. 2021](https://www.sciencedirect.com/science/article/pii/S0008884621000983)**
+> **Reference Papers : (1) [IC. Yeh. 1998](https://www.sciencedirect.com/science/article/pii/S0008884698001653),  (2) [P.G. Asteris. 2021](https://www.sciencedirect.com/science/article/pii/S0008884621000983)**
 
-> **참고코드 : [github.com_Pranov1984](https://github.com/Pranov1984/Prediction-of-cement-compressive-strength-using-stacked-ensemble-modelling/blob/master/Concrete%20Compressive%20Strength%20Prediction-V3.ipynb)**
+> **Reference Code : [github.com_Pranov1984](https://github.com/Pranov1984/Prediction-of-cement-compressive-strength-using-stacked-ensemble-modelling/blob/master/Concrete%20Compressive%20Strength%20Prediction-V3.ipynb)**
 
 <br/>
 
