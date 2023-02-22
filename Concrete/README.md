@@ -16,28 +16,29 @@
 
 <br/>
 
-## **목차** 
+## **Table of Contents** 
 <b>
 
-- [요약](#요약)
-- [기술 및 도구](#기술-및-도구)
-- [구현](#구현)
-  - [프로세스](#1-프로세스)
-  - [데이터](#2-데이터)
-  - [모델링](#3-모델링)
-- [트러블 슈팅](#트러블-슈팅)
+- [Abstract](#Abstract)
+- [Tech and Tools](#Tech-and-Tools)
+- [Code Implementation](#Code-Implementation)
+  - [a. Data Analysis](#1-Data-Analysis)
+  - [b. Data Proprocessing](#2-Data-Proprocessing)
+  - [c. Model Selection](#3-Model-Selection)
+  - [d. Model Evaluation](#4-Model-Evaluation)
+  
 </b>
 <br/>
 
 
-## **요약**
-- (1)Lasso, (2)SVM, (3)XGBoost, (4)GBR, (5)RF, (6)Stacking 모델의 예측 성능이 결정계수 0.78~0.92임.   
+## **Abstract**
+-The prediction performances of (1)Lasso, (2)SVM, (3)XGBoost, (4)GBR, (5)RF models fall `between 0.78 and 0.92 of R^2` (Coefficient of Determination).   
 ![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
 
-- (1)~(6)모델을 기반모델을 사용하여, Stacking 모델을 만들었으며, 모델의 `결정계수는 0.92`로 가장 높은 정확도를 보임.   
+-A stacking model was created using the (1)~(5) models as the base models, and the `R^2 of model is 0.92`, showing the highest accuracy.   
       <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/metaModel_performance.png" width="250" height="250"/>  
 
-- `(타겟특성)압축강도` 예측에 영향이 높은 입력변수`(Feature Importance)는 '재령일 > 시멘트양 > 물의양 > 슬래그양 > SP양 > 잔골재' 순`임.   
+-The input features that has a high `influence` on the prediction of (target feature)compressive strength is `in the order of age > cement amount > water amount > slag amount > SP amount > coarse aggregate(CA) amount`.
       <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
 
 <br/>
