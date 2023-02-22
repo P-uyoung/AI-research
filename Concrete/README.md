@@ -23,9 +23,8 @@
 - [Tech and Tools](#Tech-and-Tools)
 - [Code Implementation](#Code-Implementation)
   - [a. Data Analysis](#1-Data-Analysis)
-  - [b. Data Proprocessing](#2-Data-Proprocessing)
-  - [c. Model Selection](#3-Model-Selection)
-  - [d. Model Evaluation](#4-Model-Evaluation)
+  - [b. Model Selection](#2-Model-Selection)
+  - [c. Model Evaluation](#3-Model-Evaluation)
   
 </b>
 <br/>
@@ -42,14 +41,32 @@
       <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
 
 <br/>
-<!-- 
-## **기술 및 도구**
+
+## **Tech and Tools**
   <span><img src="https://img.shields.io/badge/Python-05122A?style=flat-square&logo=python"/></span>
-  <span><img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"></span>
-  <span><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"></span>
-  <span><img src="https://img.shields.io/badge/TensorFlowLite-41454A?style=flat-square&logo=TensorFlowLite&logoColor=white"></span>
-  <span><img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"></span>
+  <span><img src="https://img.shields.io/badge/ScikitLearn-F7931E?style=flat-square&logo=ScikitLearn&logoColor=white"></span>
   
 <br/>
+
+## **Code Implementation**
+<details>
+<summary><b>Show Detailed Implementation</b></summary>
+<div markdown="1">
+
+### A. Data Analysis  
+  **"Check (1) Distplot, (2) Outlier, (3) Clustering"**   
+  
+### B. Data Proprocessing 
+**I used the following 5 models, and XGBoost is the final model. The model's `R^2 is 0.74`.**
+  
+- SVM
+- GBM
+- XGBoost
+- RF
+- Stacking
+  
+<br/>
+
+
 
 
