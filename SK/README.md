@@ -21,7 +21,7 @@
 
 - [Abstract](#Abstract)
 - [Tech and Tools](#Tech-and-Tools)
-- [Progress Stage](#Progress-Stage)
+- [(Ongoing) Progress Stage](#Progress-Stage)
   - [Literature Survey](#1-Literature-Survey)
   - [Modeling](#2-Modeling)
   - [Experiment Design](#3-Experiment-Design)
