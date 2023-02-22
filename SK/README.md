@@ -60,20 +60,19 @@
 <br/>
   
 ### 2. Modeling  
-**I used the following 5 models, and XGBoost is the final model. The model's R^2 is 0.74.**
+**I used the following 5 models, and XGBoost is the final model. The model's `R^2 is 0.74`.**
+  
 - SVM
 - GBM
 - XGBoost
 - RF
 - Stacking
 
-**Due to the small amount of data, it is difficult to prevent overfitting by placing a valid data set separately. In addition, due to the limitation of data amount, the optimal parameter during gridsearch is not the optimal parameter of the entire model, so it is difficult to adjust the parameter.**
+**Due to the small amount of data, it is `difficult to prevent overfitting by placing a valid data set separately`. In addition, due to the limitation of data amount, the optimal parameter during gridsearch is not the optimal parameter of the entire model, so it is difficult to adjust the parameter.**
 <br/>
   
-###3. Experiment Design
-  
+### 3. Experiment Design
+  <img src="https://github.com/P-uyoung/AI-research/blob/master/SK/Fig/experiment_design.png" width="971" height="606.5"/>
   
 </div>
 </details>
-
-<br/>
