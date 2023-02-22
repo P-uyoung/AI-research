@@ -2,7 +2,7 @@
 
 **- `Design and Analysis` of low-vibration structural materials**
 
-**- `Suggesting` cement mixture ratios for the objectives attainment`(cost reduction, strength and stiffness improvement)` using `machine learning`**   
+**- `Suggesting` cement mixture ratios for the `objectives attainment (cost reduction, strength and stiffness improvement)` using `machine learning`**   
 
 **- Based on the existing [concrete compressive strength prediction study](https://github.com/P-uyoung/AI-research/tree/master/Concrete), the mixing ratio will be proposed.**
 
@@ -31,14 +31,11 @@
 
 
 ## **Abstract**
-- (1)Lasso, (2)SVM, (3)XGBoost, (4)GBR, (5)RF, (6)Stacking 모델의 예측 성능이 결정계수 0.78~0.92임.   
-![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
+- Korean `compressive strength data` according to the cement mixture were collected through literature survey. First, domestic data were applied to the overseas model of the existing compressive strength prediction study. As a result, Korean data is not applicable to overseas models. (The coefficient of determination was negative.) Therefore, `a Korean model was created using the gradient boosting machine(GBM).`
+- Through this model, I would like to propose `Cement Mixture for Reducing Unit Price and Improving Strength of Low Vibration Plant` required by `SK Hynix`. However, since the quality of the data used in the model is different from that of the target data, the `experiment` according to the `six cement mixtures suggested through the ML model` is planned `to verify the objectives attainment`. The experiment will be conducted when the material arrives from the SNNC company.
 
-- (1)~(6)모델을 기반모델을 사용하여, Stacking 모델을 만들었으며, 모델의 `결정계수는 0.92`로 가장 높은 정확도를 보임.   
-      <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/metaModel_performance.png" width="250" height="250"/>  
-
-- `(타겟특성)압축강도` 예측에 영향이 높은 입력변수`(Feature Importance)는 '재령일 > 시멘트양 > 물의양 > 슬래그양 > SP양 > 잔골재' 순`임.   
-      <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
+<!-- ![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
+<img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/> -->
 
 <br/>
 
