@@ -5,7 +5,8 @@
 **- `Domian` is the following 3 materials.**
 
 **- 1. Compressive Strength of `Concrete`**
-  <img src="https://github.com/P-uyoung/AI-research/tree/master/Concrete/Fig/abstract.png" width="942.4" height="726.4">
+
+  <img src="https://github.com/P-uyoung/AI-research/tree/master/Concrete/Fig/abstract.png" width="942.4" height="726.4"/>
 
 **- 2. Reactivity of `Flyash(FA)`, an eco-friendly alternative material to concrete**
 
