@@ -34,8 +34,7 @@
 - Korean `compressive strength data` according to the cement mixture were collected through literature survey. First, domestic data were applied to the overseas model of the existing compressive strength prediction study. As a result, Korean data is not applicable to overseas models. (The coefficient of determination was negative.) Therefore, `a Korean model was created using the gradient boosting machine(GBM).`
 - Through this model, I would like to propose `Cement Mixture for Reducing Unit Price and Improving Strength of Low Vibration Plant` required by `SK Hynix`. However, since the quality of the data used in the model is different from that of the target data, the `experiment` according to the `six cement mixtures suggested through the ML model` is planned `to verify the objectives attainment`. The experiment will be conducted when the material arrives from the SNNC company.
 
-<!-- ![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
-<img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/> -->
+<img src="https://github.com/P-uyoung/AI-research/blob/master/SK/Fig/abstract.png" width="736.8" height="258.4"/>
 
 <br/>
 
