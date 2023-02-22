@@ -34,8 +34,7 @@
 - Korean `compressive strength data` according to the cement mixture were collected through literature survey. First, domestic data were applied to the overseas model of the existing compressive strength prediction study. As a result, Korean data is not applicable to overseas models. (The coefficient of determination was negative.) Therefore, `a Korean model was created using the gradient boosting machine(GBM).`
 - Through this model, I would like to propose `Cement Mixture for Reducing Unit Price and Improving Strength of Low Vibration Plant` required by `SK Hynix`. However, since the quality of the data used in the model is different from that of the target data, the `experiment` according to the `six cement mixtures suggested through the ML model` is planned `to verify the objectives attainment`. The experiment will be conducted when the material arrives from the SNNC company.
 
-<!-- ![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
-<img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/> -->
+  <img src="https://github.com/P-uyoung/AI-research/blob/master/SK/Fig/abstract.png" width="921" height="323"/>
 
 <br/>
 
@@ -47,9 +46,33 @@
 
 ## **Progress Stage**
 <details>
-<summary><b>구현 설명 펼치기</b></summary>
+<summary><b>Show Detailed Progress</b></summary>
 <div markdown="1">
 
+### 1. Literature Survey   
+  **"Objective : Proposed Mixing Ratio with Maximum Stiffness(Modulus of Elasticity)"**   
+  
+(1) Relationship with `Compressive Strength` and `Dynamic Elastic Modulus`   
+
+(2) Relationship with `Dynamic Elastic Modulus` and `Yong's Modulus`   
+
+(3) Changes in `Compressive Strength` According to the Mixing Ratio of `Ferro Nickel Slag(FNS)` and `Dolomite Aggregates`    
+<br/>
+  
+### 2. Modeling  
+**I used the following 5 models, and XGBoost is the final model. The model's R^2 is 0.74.**
+- SVM
+- GBM
+- XGBoost
+- RF
+- Stacking
+
+**Due to the small amount of data, it is difficult to prevent overfitting by placing a valid data set separately. In addition, due to the limitation of data amount, the optimal parameter during gridsearch is not the optimal parameter of the entire model, so it is difficult to adjust the parameter.**
+<br/>
+  
+###3. Experiment Design
+  
+  
 </div>
 </details>
 
