@@ -6,8 +6,12 @@
 
 **- 1. Compressive Strength of `Concrete`**
 
-  <img src="https://github.com/P-uyoung/AI-research/tree/master/Concrete/Fig/abstract.png" width="942.4" height="726.4"/>
+  <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/abstract.png" width="471.2" height="363.2"/>
 
 **- 2. Reactivity of `Flyash(FA)`, an eco-friendly alternative material to concrete**
 
+  <img src="https://github.com/P-uyoung/AI-research/blob/master/Flyash/Fig/abstract.png" width="1024" height="290"/>
+
 **- 3. Dispersion an Content of `carbon nanotube(CNT)` in concrete**
+
+  <img src="https://github.com/P-uyoung/AI-research/blob/master/CNT/Fig/abstract.png" width="657.6" height="282.8"/>
