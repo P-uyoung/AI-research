@@ -23,9 +23,9 @@
 - [Tech and Tools](#Tech-and-Tools)
 - [Progress Stage](#Progress-Stage)
   - [Literature Survey](#1-Literature-Survey)
-  - [데이터](#2-데이터)
-  - [모델링](#3-모델링)
-- [트러블 슈팅](#트러블-슈팅)
+  - [Modeling](#2-Modeling)
+  - [Experiment Design](#3-Experiment-Design)
+  
 </b>
 <br/>
 
