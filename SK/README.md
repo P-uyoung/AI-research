@@ -38,11 +38,11 @@
 
 <br/>
 
-## **Tech and Tools**
+<!-- ## **Tech and Tools**
   <span><img src="https://img.shields.io/badge/Python-05122A?style=flat-square&logo=python"/></span>
   <span><img src="https://img.shields.io/badge/ScikitLearn-F7931E?style=flat-square&logo=ScikitLearn&logoColor=white"></span>
   
-<br/>
+<br/> -->
 
 ## **Progress Stage**
 <details>
