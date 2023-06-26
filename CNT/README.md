@@ -17,15 +17,17 @@
 
 - [Abstract](#Abstract)
 - [Tech and Tools](#Tech-and-Tools)
-- [Code Implementation](#Code-Implementation)
-  - [a. Data Analysis](#a.-Data-Analysis)
-  - [b. Model Selection](#b.-Model-Selection)
-  - [c. Model Evaluation](#c.-Model-Evaluation)
+- [Visualize Model](#Visualize-Model)
+  - [a. ModelA](#a.-ModelA)
+  - [b. ModelB](#b.-ModelB)
   
 </b>
 <br/>
 
 ## **Abstract**
+
+![](https://github.com/P-uyoung/AI-research/blob/master/CNT/Fig/Overview.png)
+
 - Although it is recognized as the next-generation new material for CNTs, there is no research on quality evaluation when used in construction materials.
 
 - Optical microscope images of experimental samples are used as data.
@@ -37,38 +39,32 @@
 - (3) Train Model: 1D-CNN with dual convolutional layers
 
 - (4) Test Model: show confusion matrix
-![]()
+
 <br/>
 
 ## **Tech and Tools**
   <span><img src="https://img.shields.io/badge/Python-05122A?style=flat-square&logo=python"/></span>
-  <span><img src="https://img.shields.io/badge/ScikitLearn-F7931E?style=flat-square&logo=ScikitLearn&logoColor=white"></span>
+  <span><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"></span>
+  <span><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"></span>
+  <span><img src="https://img.shields.io/badge/REST%20API-05122A?style=flat-square"></span>
   
 <br/>
 
-## **Code Implementation**
+## **Visualize Model**
 <details>
-<summary><b>Show Detailed Implementation</b></summary>
+<summary><b>Show detailed things</b></summary>
 <div markdown="1">
 
-### a. Data Analysis  
-  **"Check (1) Distplot, (2) Outlier, (3) Clustering"**   
+### a. ModelA
+**Whether or not dispersion processing module**
+![](https://github.com/P-uyoung/AI-research/blob/master/CNT/Fig/module1.png)
+![](https://github.com/P-uyoung/AI-research/blob/master/CNT/Fig/module1-1.png)
   
-### b. Model Selection
-**I used the following 5 models. So, combining these models, I useed the stakcing model as the final model. **
-- Lasso(poly_degree=2)
-- SVM
-- GBM
-- XGBoost
-- RF
-  
-**The final model(stacking)'s `R^2 is 0.92`.** 
+### b. ModelB
+**Content of CNT: 0.05, 0.1, 0.2, 0.4 wt%**
+![](https://github.com/P-uyoung/AI-research/blob/master/CNT/Fig/module2.png)
+![](https://github.com/P-uyoung/AI-research/blob/master/CNT/Fig/module1-2.png)
 
-### c. Model Evaluation
-- R^2 (main)
-- R^2_adj
-- MAPE
-  
 </div>
 </details>
 
