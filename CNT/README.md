@@ -25,9 +25,6 @@
 </b>
 <br/>
 
-![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
-<img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
-
 ## **Abstract**
 - Although it is recognized as the next-generation new material for CNTs, there is no research on quality evaluation when used in construction materials.
 
@@ -37,11 +34,10 @@
 
 - (2) Data Pre-processing: `histogram stretching` to increase constant ratio(명암비)
 
-- (3) Train Model: 1D-CNN with dual convolutional layer
+- (3) Train Model: 1D-CNN with dual convolutional layers
 
 - (4) Test Model: show confusion matrix
-
-
+![]()
 <br/>
 
 ## **Tech and Tools**
