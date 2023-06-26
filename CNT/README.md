@@ -25,16 +25,22 @@
 </b>
 <br/>
 
+![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
+<img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
 
 ## **Abstract**
--The prediction performances of (1)Lasso, (2)SVM, (3)XGBoost, (4)GBR, (5)RF models fall `between 0.78 and 0.92 of R^2` (Coefficient of Determination).   
-![](https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/baseModel_performance.png)
+- Although it is recognized as the next-generation new material for CNTs, there is no research on quality evaluation when used in construction materials.
 
--A stacking model was created using the (1)~(5) models as the base models, and the `R^2 of model is 0.92`, showing the highest accuracy.   
-      <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/metaModel_performance.png" width="250" height="250"/>  
+- Optical microscope images of experimental samples are used as data.
 
--The input features that has a high `influence` on the prediction of (target feature)compressive strength is `in the order of age > cement amount > water amount > slag amount > SP amount > coarse aggregate(CA) amount`.
-      <img src="https://github.com/P-uyoung/AI-research/blob/master/Concrete/Fig/Feature_Importance.png" width="679" height="280"/>
+- (1) Data Collections:  `binarize(greyscale)` the images and `augment` data
+
+- (2) Data Pre-processing: `histogram stretching` to increase constant ratio(명암비)
+
+- (3) Train Model: 1D-CNN with dual convolutional layer
+
+- (4) Test Model: show confusion matrix
+
 
 <br/>
 
