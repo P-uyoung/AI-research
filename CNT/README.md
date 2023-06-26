@@ -34,10 +34,10 @@
 
 - (2) Data Pre-processing: `histogram stretching` to increase constant ratio(명암비)
 
-- (3) Train Model: 1D-CNN with dual convolutional layer
+- (3) Train Model: 1D-CNN with dual convolutional layers
 
 - (4) Test Model: show confusion matrix
-![](https://github.com/P-uyoung/AI-research/edit/master/CNT/Fig/Overview.png)
+![]()
 <br/>
 
 ## **Tech and Tools**
